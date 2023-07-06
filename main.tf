@@ -6,6 +6,9 @@ terraform {
       version  = "3.43.0"
     }
   }
+}
+
+terraform {  
   cloud {
     organization = "anne-TerraformCI"
 
@@ -14,7 +17,6 @@ terraform {
     }
   }
 }
-
 
 provider "azurerm" {
   features {}
