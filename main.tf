@@ -42,4 +42,4 @@ resource "azurerm_storage_account" "storageaccount" {
   account_replication_type = "LRS"
 }
 
-#sss
+#ssssssss
